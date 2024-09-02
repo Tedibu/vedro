@@ -1,0 +1,89 @@
+/**
+ * Базовые стили для всего сайта
+ */
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+.navbar {
+	width: 100%; /** ширина*/
+	height: 70px; /** Высота*/
+	box-shadow: 0 4px 10px rgb(0,0,0, .1); /** Тень*/
+}
+.navbar .container {
+height: inherit; /** Высота*/
+display: flex;
+justify-content: space-between;
+align-items: center;	
+}
+.navbar-menu {
+	list-style-type: none; /**задаёт тип маркеров для использования в списке*/
+	padding-left: 0; /**определяет ширину левого внутреннего отступа элемента*/
+	margin-bottom: 0; /**устанавливает внешний отступ внизу элемента*/
+}
+.navbar-menu li {
+	display: inline-block;
+}
+.navbar-menu li a {
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	padding: 20px;
+	transition: all .07s ease-in-out;
+
+}
+.navbar-menu li a:hover {
+	opacity: 1;
+
+
+}
+.navbar-wrap {
+	display: flex;
+	flex-flow: row nowrap;
+}
+.callback {
+	margin-left: 300px;
+	padding: 20px;
+	text-decoration: none;
+	color: #000;
+	background-color: coral;
+}
+.callback:hover {
+	transform: scale(1.04);
+	transition: all .1s ease-in-out;
+	color: #000;
+}
+
+
+.navbar-brand {
+	font-size: 15px;
+	text-decoration: none; /**убирате подчеркивание*/
+	color: #000;
+}
+.navbar-brand:hover {
+color: coral;
+transition: all .07s ease-in-out;
+}
+.Vedro {
+
+}
+.Infa {
+
+}
+.knopka {
+	
+}
+
+	/**
+ * Другие стили
+ */
+
+
+
